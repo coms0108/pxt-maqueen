@@ -156,8 +156,8 @@ namespace maqueen {
     }
 
     //% weight=90
-    //% blockId=motor_MotorRun block="Motor|%index|dir|%Dir|speed|%speed"
-    //% speed.min=128 speed.max=255
+    //% blockId=motor_MotorRun block="Motor|%index|turn|%Dir|speed|%speed"
+    //% speed.min=0 speed.max=255
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     //% direction.fieldEditor="gridpicker" direction.fieldOptions.columns=2
     export function MotorRun(index: aMotors, direction: Dir, speed: number): void {
